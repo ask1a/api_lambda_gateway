@@ -22,7 +22,7 @@ python build_model.py
 
 
 
-5/ on pousse les zip sur S3 et on en créé des layers
+5/ on créé dans lambda le layer scipy/numpy (présent par défaut) ensuite, on pousse les zip sur S3 et on en créé des layers
 
 6/ on test les layers avec les codes de test pandas et scikit
 
